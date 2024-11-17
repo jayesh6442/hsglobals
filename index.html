@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hs globals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <a href="#" class="logo">Website</a>
+        <div class="menu">
+          <a href="#home" onclick="closeMenu()">Home</a>
+          <a href="#aboutme" onclick="closeMenu()">About</a>
+          <a href="#service" onclick="closeMenu()">Products</a>
+          <a href="#gallery" onclick="closeMenu()">Gallery</a>
+          <a href="#contactus" onclick="closeMenu()">Contact Us</a>
+          <i class="fa fa-times close-menu" onclick="closeMenu()"></i>
+        </div>
+        <div class="menu-shadow" onclick="closeMenu()"></div>
+        <i class="fa fa-bars show-bar" onclick="openMenu()"></i>
+      </header>
+      <section id="section1" class="section">
+        <div class="content-section1">
+          <h1 class="title">HS globals</h1>
+          <h2 class="subtitile">Welcome to HS globals</h2>
+        </div>
+      </section>
+      <div class="overlay"></div>
+
+      <section id="section2">
+        <div class="container">
+          <div class="slide">
+            <div
+              class="item"
+              style="
+                background: url('https://i.postimg.cc/g0W4qN2y/Switzerland.jpg');
+              "
+            >
+              <div class="content">
+                <div class="name">Switzerland</div>
+                <div class="description">
+                  Renowned for its breathtaking Alpine scenery and precision in
+                  craftsmanship
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background: url('https://i.postimg.cc/DZfgR0s8/Finland.jpg');
+              "
+            >
+              <div class="content">
+                <div class="name">Finland</div>
+                <div class="description">
+                  Known for its saunas, lakes, and a deep connection to nature
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background: url('https://i.postimg.cc/kX2jn2HS/Iceland.jpg');
+              "
+            >
+              <div class="content">
+                <div class="name">Iceland</div>
+                <div class="description">
+                  Famous for its stunning geothermal landscapes, waterfalls, and
+                  glaciers
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background: url('https://i.postimg.cc/05WWRYVx/Australia.jpg');
+              "
+            >
+              <div class="content">
+                <div class="name">Australia</div>
+                <div class="description">
+                  Distinguished by its diverse ecosystems, ranging from beaches
+                  to bushland
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background: url('https://i.postimg.cc/dtg5DqMx/Netherland.jpg');
+              "
+            >
+              <div class="content">
+                <div class="name">Netherland</div>
+                <div class="description">
+                  Characterized by its iconic canals, tulip fields, and
+                  windmills
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background: url('https://i.postimg.cc/sDGJktB9/Ireland.jpg');
+              "
+            >
+              <div class="content">
+                <div class="name">Ireland</div>
+                <div class="description">
+                  Known for its lush green landscapes and rich cultural heritage
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
