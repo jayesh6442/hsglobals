@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header id="header">
+        <a href="#" class="logo">Website</a>
+        <div class="menu">
+          <a href="./index.html" onclick="closeMenu()">Home</a>
+          <a href="./about/index.html" onclick="closeMenu()">About</a>
+          <a href="./products/index.html" onclick="closeMenu()">Products</a>
+          <a href="./gallery/index.html" onclick="closeMenu()">Gallery</a>
+          <a href="./contact/index.html" onclick="closeMenu()">Contact Us</a>
+          <i class="fa fa-times close-menu" onclick="closeMenu()"></i>
+        </div>
+        <div class="menu-shadow" onclick="closeMenu()"></div>
+        <i class="fa fa-bars show-bar" onclick="openMenu()"></i>
+      </header>
+    </main>
+  </body>
 </html>
