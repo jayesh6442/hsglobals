@@ -203,3 +203,11 @@ header .show-bar:hover {
     cursor: pointer;
   }
 }
+
+/* ************  SECTION ONE ************* */
+
+#section1 {
+  height: 100vh;
+  position: relative;
+  background-color: lightcyan;
+}
