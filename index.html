@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-md-auto gap-2">
+              <li class="nav-item rounded">
+                <a class="nav-link" aria-current="page" href="#"
+                  ><i class="bi bi-house-fill me-2"></i>Home</a
+                >
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-people-fill me-2"></i>About</a
+                >
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-telephone-fill me-2"></i>Contact</a
+                >
+              </li>
+              <li class="nav-item dropdown rounded">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><i class="bi bi-person-fill me-2"></i>Profile</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Account</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- section1 -->
+      <section id="section1">
+        <div class="container-video">
+          <video src="./images/main.mp4" autoplay muted loop></video>
+          <div class="over-lay">
+            <div class="container">
+              <h1>Hs Globals</h1>
+              <h3>Natural Granite Solutions</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section2 -->
+      <section id="section-2">
+        <div class="container-fluid p-5">
+          <div class="heading">
+            <h1>
+              India's Premier Granite Supply Partner: From Quarry to Global
+              Delivery
+            </h1>
+          </div>
+          <div class="row">
+            <div
+              class="col-md-6 d-flex justify-content-center align-items-center"
+            >
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./images/right-image.webp"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section3 -->
+      <section id="section-3">
+        <div class="container-item">
+          <div class="slide">
+            <div class="item" style="background: url('./images/grenite.jpg')">
+              <div class="content">
+                <div class="name">Switzerland</div>
+                <div class="description">
+                  Renowned for its breathtaking Alpine scenery and precision in
+                  craftsmanship
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div class="item" style="background: url('./images/four-main.jpg')">
+              <div class="content">
+                <div class="name">Finland</div>
+                <div class="description">
+                  Known for its saunas, lakes, and a deep connection to nature
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="background: url('./images/four-main-one.jpg')"
+            >
+              <div class="content">
+                <div class="name">Iceland</div>
+                <div class="description">
+                  Famous for its stunning geothermal landscapes, waterfalls, and
+                  glaciers
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="background: url('./images/four-main-two.jpg')"
+            >
+              <div class="content">
+                <div class="name">Australia</div>
+                <div class="description">
+                  Distinguished by its diverse ecosystems, ranging from beaches
+                  to bushland
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="background: url('./images/four-main-three.jpg')"
+            >
+              <div class="content">
+                <div class="name">Netherland</div>
+                <div class="description">
+                  Characterized by its iconic canals, tulip fields, and
+                  windmills
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="background: url('/images/four-main-three.jpg')"
+            >
+              <div class="content">
+                <div class="name">Ireland</div>
+                <div class="description">
+                  Known for its lush green landscapes and rich cultural heritage
+                </div>
+                <button>See More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- section4 -->
+      <section id="section4">
+        <div class="section4-top">
+          <div class="image-container">
+            <img src="./images/grenite.jpg" alt="" />
+          </div>
+          <div class="content-div">
+            <div class="content-one">
+              <h1>Grenite</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              </p>
+            </div>
+            <div class="content-two">
+              <h1>Grenite</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              </p>
+            </div>
+          </div>
+          <div class="right-image">
+            <img src="./images/second_image_two.jpg" alt="" />
+          </div>
+        </div>
+        <div class="section4-bottom">
+          <div class="top-section-wrapper">
+            <div class="heading">
+              <h1>Why choose Grenite?</h1>
+            </div>
+            <div class="sub-heading">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab
+                reprehenderit asperiores? Ipsam temporibus magni maxime iste
+                quod officiis, minus quidem nobis animi vel nesciunt cumque
+                facere repellendus quisquam suscipit.
+              </h3>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="card-item">
+              <h1>Free estimate</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                maiores recusandae quibusdam quasi commodi illum ea fugit. Nihil
+                tempore recusandae dolorum minus iure, ratione delectus quo
+                omnis soluta ab ad.
+              </p>
+            </div>
+            <div class="card-item">
+              <h1>Free estimate</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                maiores recusandae quibusdam quasi commodi illum ea fugit. Nihil
+                tempore recusandae dolorum minus iure, ratione delectus quo
+                omnis soluta ab ad.
+              </p>
+            </div>
+            <div class="card-item">
+              <h1>Free estimate</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                maiores recusandae quibusdam quasi commodi illum ea fugit. Nihil
+                tempore recusandae dolorum minus iure, ratione delectus quo
+                omnis soluta ab ad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section5 -->
+      <section id="section5">
+        <div class="slider-wrapper left">
+          <div class="scroll-item scroll-item1">
+            <img src="./images/asset 1.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item2">
+            <img src="./images/asset 2.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item3">
+            <img src="./images/asset 3.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item4">
+            <img src="./images/asset 4.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item5">
+            <img src="./images/asset 5.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item6">
+            <img src="./images/asset 6.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item7">
+            <img src="./images/asset 7.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item8">
+            <img src="./images/asset 8.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="slider-wrapper right">
+          <div class="scroll-item scroll-item1">
+            <img src="./images/asset 1.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item2">
+            <img src="./images/asset 2.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item3">
+            <img src="./images/asset 3.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item4">
+            <img src="./images/asset 4.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item5">
+            <img src="./images/asset 5.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item6">
+            <img src="./images/asset 6.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item7">
+            <img src="./images/asset 7.jpeg" alt="" />
+          </div>
+          <div class="scroll-item scroll-item8">
+            <img src="./images/asset 8.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- section6 -->
+      <section id="section6"></section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <aside class="footer-brand">
+            <div class="footer-icon"></div>
+            <p class="brand-text">
+              ATOMIC Industries Ltd.
+              <br />
+              Providing reliable atoms since 1945.
+            </p>
+          </aside>
+          <nav>
+            <h6 class="footer-heading">Services</h6>
+            <a class="footer-link">Branding</a>
+            <a class="footer-link">Design</a>
+            <a class="footer-link">Marketing</a>
+            <a class="footer-link">Advertisement</a>
+          </nav>
+          <nav>
+            <h6 class="footer-heading">Company</h6>
+            <a class="footer-link">About us</a>
+            <a class="footer-link">Contact</a>
+            <a class="footer-link">Jobs</a>
+            <a class="footer-link">Press kit</a>
+          </nav>
+          <nav>
+            <h6 class="footer-heading">Legal</h6>
+            <a class="footer-link">Terms of use</a>
+            <a class="footer-link">Privacy policy</a>
+            <a class="footer-link">Cookie policy</a>
+          </nav>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
