@@ -156,7 +156,7 @@ body {
   left: 100px;
   width: 300px;
   text-align: left;
-  color: #eee;
+  /* color: #eee; */
   transform: translate(0, -50%);
   font-family: system-ui;
   display: none;
@@ -390,6 +390,10 @@ body {
 .left .scroll-item8,
 .right .scroll-item8 {
   animation-delay: calc((-10s / 8) * 0);
+}
+.item {
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* section 6 */
